@@ -1,5 +1,13 @@
-<script src="https://cdn.jsdelivr.net/npm/jsqr@1.4.0/dist/jsQR.js"></script>
+<head>
 
+<meta charset="UTF-8">
+
+<title>AGV</title>
+
+<script src="https://cdn.jsdelivr.net/npm/jsqr@1.4.0/dist/jsQR.min.js"></script>
+
+<script>
+<script src="https://cdn.jsdelivr.net/npm/jsqr@1.4.0/dist/jsQR.min.js"></script>
 <script>
 /* =========================
    AGV SYSTEM
@@ -22,7 +30,7 @@ window.onload = () => {
   console.log("jsQR =", typeof jsQR);
 
   if (typeof jsQR === "undefined") {
-    alert("โหลด jsQR ไม่สำเร็จ\n\nตรวจสอบว่าไฟล์ jsQR.js อยู่โฟลเดอร์เดียวกับ index.html");
+    alert("โหลด jsQR ไม่สำเร็จ\n\nกรุณาเชื่อมต่ออินเทอร์เน็ตแล้วรีเฟรชใหม่");
   }
 
   const today = new Date();
